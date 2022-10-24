@@ -24,3 +24,7 @@ const getFromGitHub = async function() {
     });
 }
 ```
+
+## 最终实现
+
+基于Axios发出异步GET请求，URL取`api.github.com/search/repositories`，实现代码见[main.js](src/main.js)。
